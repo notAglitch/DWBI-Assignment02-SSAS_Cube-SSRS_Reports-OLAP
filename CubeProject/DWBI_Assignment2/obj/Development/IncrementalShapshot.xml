@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>DWBI_Assignment2</Database>
+    <Server>DESKTOP-8H1D7CF\MSSQLSERVERDWBI</Server>
+    <ConnectionString>Data Source=DESKTOP-8H1D7CF\MSSQLSERVERDWBI;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>ccoetgze50ItpDPrfnprZU9RYu4=04-Jun-22 6:17:18 PM04-Jun-22 6:17:18 PM</TimeStamp>
+        <ID>
+          <String>E Commerce DW source</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>1RSP2UtzxYP2lxz58JPyadVTr/U=04-Jun-22 6:19:23 PM04-Jun-22 6:19:23 PM</TimeStamp>
+        <ID>
+          <String>E Commerce DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9uhr0NfayBbcZqWBLZreZzcsQYs=04-Jun-22 6:36:21 PM04-Jun-22 6:20:04 PM</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QW2alLadXGcpeJvDtyBCSYFRSeQ=04-Jun-22 6:30:50 PM04-Jun-22 6:20:04 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>xfzUfWaOxlUvCEaJL+cFkx+1990=04-Jun-22 6:27:33 PM04-Jun-22 6:20:04 PM</TimeStamp>
+        <ID>
+          <String>Dim Seller</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>y90IAWVa61WrjzUWDpwyjIXrsOc=04-Jun-22 6:27:33 PM04-Jun-22 6:20:04 PM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Lv7O1tBPBOCovHzWJKGbFxsvIZg=04-Jun-22 7:00:30 PM04-Jun-22 6:20:04 PMIby0CMx2iI0rUSWup6bTRQGJ3Vk=04-Jun-22 6:58:19 PM04-Jun-22 6:20:04 PM</TimeStamp>
+        <ID>
+          <String>E Commerce DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>qsOIIUntOEBI6dE2zuZ5XkQSLw4=04-Jun-22 6:15:09 PM04-Jun-22 6:15:09 PM</TimeStamp>
+      <ID>
+        <String>DWBI_Assignment2</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-06-04T13:38:01.523333Z</LastDeployed>
+</DeploymentSnapshot>
